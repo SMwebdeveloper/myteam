@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap");
-
+/* roote */
+:root {
+  --main-color: #014e56;
+  --text-color:#fff;
+  --span-color:#F67E7E;
+  --raptur-blue:#79c8c7;
+  --sacramento:#012F34;
+}
+/* global */
 * {
   box-sizing: border-box;
 }
@@ -14,4 +22,143 @@ body {
   font-family: "Livvic", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
+  overflow-x:hidden ;
+}
+
+/* container */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* header section */
+.header {
+  padding: 7.7rem;
+  background: var(--main-color);
+}
+.header-contaienr {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 8rem;
+  transition: 0.3s;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo-image {
+  width: 15.9rem;
+  height: 4rem;
+}
+.site-nav {
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin-right: 45rem;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+}
+.site-nav-item{
+    transition: 0.5s;
+}
+.site-nav-item:hover {
+    opacity: 0.8;
+}
+.site-nav-item:active {
+    opacity: 0.6;
+}
+  
+.site-nav-item:not(:last-child) {
+    margin-right: 4rem;
+}
+.site-contact-link {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+    border: 1px solid var(--text-color);
+    border-radius: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    transition: 0.5s;
+}
+.site-contact-link:hover{
+    background: var(--text-color);
+    color:var(--main-color);
+}
+.site-contact-link:active{
+    background: var(--main-color);
+    color: var(--text-color);
+    opacity: 0.6;
+}
+/* main */
+.main {
+    flex-grow: 1;
+}
+/* hero section */
+.hero {
+    background: var(--main-color);
+    padding: 5rem 0 18rem;
+}
+.hero-container {
+    position: relative;
+
+}
+.hefo-bg-image1 {
+    width: 20rem;
+    position: absolute;
+    top: 2.5rem;
+    left: -22.5rem;
+}
+.hero-constent {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.hero-title {
+    width: 635px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 10rem;
+}
+.hero-title span{
+    color: var(--span-color);
+}
+/* .hero-content-text {
+    
+} */
+.main-border {
+    display: block;
+    width: 50px;
+    height: 4px;
+}
+.aqua {
+    background: var(--raptur-blue);
+    margin-bottom: 7.9rem;
+}
+.hero-text {
+    width: 44.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    color:var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+.hero-bg-image2 {
+    width: 35.8rem;
+    position: absolute;
+    bottom: -27rem;
+    left: 65rem;
+    z-index: 0;
 }
