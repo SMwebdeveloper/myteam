@@ -68,6 +68,7 @@ body {
 }
 .site-nav-item{
     transition: 0.5s;
+    cursor: pointer;
 }
 .site-nav-item:hover {
     opacity: 0.8;
@@ -106,7 +107,7 @@ body {
 /* hero section */
 .hero {
     background: var(--main-color);
-    padding: 5rem 0 18rem;
+    padding: 5rem 0 20rem;
 }
 .hero-container {
     position: relative;
@@ -115,7 +116,7 @@ body {
 .hefo-bg-image1 {
     width: 20rem;
     position: absolute;
-    top: 2.5rem;
+    top: -0.5rem;
     left: -22.5rem;
 }
 .hero-constent {
@@ -158,7 +159,76 @@ body {
 .hero-bg-image2 {
     width: 35.8rem;
     position: absolute;
-    bottom: -27rem;
+    bottom: -30rem;
     left: 65rem;
     z-index: 0;
+}
+/* sircle section */
+.sircle {
+    position: relative;
+    background: var(--sacramento);
+    z-index: 1;
+    padding: 14rem 0;
+}
+.sircle-container {
+    position: relative;
+}
+.sircle-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.light {
+    background: var(--span-color);
+    margin-bottom: 5.4rem;
+}
+.sircle-title {
+    width: 44.5rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    color: var(--text-color);
+}
+.sircle-list {
+    list-style: none;
+}
+.sircle-list-item {
+    margin-top: 2rem;
+    display: flex;
+   
+
+}
+.sircle-list-item:not(:last-child){
+    margin-bottom: 3.2rem;
+}
+.sircle-item-image {
+    width: 7.2rem;
+    height: 7.2rem;
+    margin-right: 2.3rem;
+}
+.sircle-item-content {
+   padding-top: 1.5rem;
+}
+.sircle-content-title {
+    margin: 0;
+    color: var(--span-color);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.6rem;
+}
+.sircle-content-text {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.sircle-bg-image {
+    position: absolute;
+    bottom: -14rem;
+    right: -22.4rem;
+    width: 20rem;
+    height: 24rem;
 }
