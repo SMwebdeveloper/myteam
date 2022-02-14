@@ -1,0 +1,50 @@
+:root {
+    --main-color: #014e56;
+    --text-color: #fff;
+    --span-color: #f67e7e;
+    --raptur-blue: #79c8c7;
+    --sacramento: #012f34;
+    --deep: #004047;
+    --border-color: #c4fffe;
+    --darkGreen:#002529;
+}
+.about-hero {
+    background: var(--main-color);
+    padding: 10rem 0;
+}
+.about-hero-container {
+    position: relative;
+}
+.about-hero-content {
+    display: flex;
+    align-items:stretch;
+}
+.about-hero-title {
+    width: 35rem;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 10rem;
+    margin-right: 3rem;
+}
+.about-content-item {
+}
+.light {
+    margin-bottom: 4rem;
+}
+.about-content-text {
+    width: 73rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    color: var(--text-color);
+}
+.about-content-image {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    bottom: -10rem;
+    right: -22.5rem;
+}

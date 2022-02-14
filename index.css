@@ -1,0 +1,203 @@
+.hero {
+    background: var(--main-color);
+    padding: 5rem 0 20rem;
+  }
+  .hero-container {
+    position: relative;
+  }
+  .hefo-bg-image1 {
+    width: 20rem;
+    position: absolute;
+    top: -0.5rem;
+    left: -22.5rem;
+  }
+  .hero-constent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-title {
+    width: 635px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 10rem;
+  }
+  .hero-title span {
+    color: var(--span-color);
+  }
+  /* .hero-content-text {
+      
+  } */
+ 
+  .hero-text {
+    width: 44.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  .hero-bg-image2 {
+    width: 35.8rem;
+    position: absolute;
+    bottom: -30rem;
+    left: 65rem;
+    z-index: 0;
+  }
+  /* sircle section */
+  .sircle {
+    position: relative;
+    background: var(--sacramento);
+    z-index: 1;
+    padding: 12.8rem 0;
+  }
+  .sircle-container {
+    position: relative;
+  }
+  .sircle-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .sircle-title {
+    width: 44.5rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    color: var(--text-color);
+  }
+  .sircle-list {
+    list-style: none;
+  }
+  .sircle-list-item {
+    margin-top: 2rem;
+    display: flex;
+  }
+  .sircle-list-item:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+  .sircle-item-image {
+    width: 7.2rem;
+    height: 7.2rem;
+    margin-right: 2.3rem;
+  }
+  .sircle-item-content {
+    padding-top: 1.5rem;
+  }
+  .sircle-content-title {
+    margin: 0;
+    color: var(--span-color);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .sircle-content-text {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+  .sircle-bg-image {
+    position: absolute;
+    bottom: -12.5rem;
+    right: -22.4rem;
+    width: 20rem;
+    height: 24rem;
+  }
+  /* success section */
+  .succes {
+    background: var(--deep);
+    padding: 14.1rem 0 15rem;
+  }
+  .success-container {
+    position: relative;
+  }
+  .succes-bg-image1 {
+    position: absolute;
+    top: -17rem;
+    left: -14rem;
+  }
+  /* .success-content {
+  } */
+  .success-title {
+    margin: 0;
+    padding: 0;
+    width: 94.5rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: auto;
+  }
+  .success-title span {
+    color: var(--raptur-blue);
+  }
+  .success-list {
+    margin-top: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .success-list-item {
+    background: url("./images/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .success-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .success-item-text {
+    width: 35rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .success-user-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-title {
+    margin: 0;
+    padding: 0;
+    color: var(--raptur-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    margin-bottom: 2px;
+  }
+  .user-text {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+  }
+  .user-image {
+    width: 6.2rem;
+    height: 6.2rem;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+  }
+  .succes-bg-image2 {
+    position: absolute;
+    right: -12.5rem;
+    bottom: -26.6rem;
+    z-index: 0;
+  }
+  /* last section */
+ 
