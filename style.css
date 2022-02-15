@@ -76,7 +76,7 @@ body {
   line-height: 2.8rem;
 }
 .site-nav-item a:hover {
-  opacity: 0.8;
+  color: var(--span-color);
 }
 .site-nav-item a:active {
   opacity: 0.6;
